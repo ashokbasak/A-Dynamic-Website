@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+html {
+  
+  
+  scroll-behavior: smooth;
+}
+
+.logo {
+  height: 74px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.navbar {
+  box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.43);
+}
+
+.nav-item {
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+li,
+p
+  {
+    color: rgb(97, 89, 89);
+}
+
+.quote {
+  font-size: 20px;
+  padding: 0 50px;
+}
+
+h1, h3 {
+  font-size: 1.5rem;
+}
+
+h2,.contact-heading {
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+
+.row {
+  margin: 0;
+}
+
+/* .navbar-brand{
+  margin-right: 60px;
+} */
+
+.container1, .container2, .container3 {
+  
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /* box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.43); */
+}
+
+.container4{
+  margin: 10px 100px;
+}
+
+.container6{
+  margin-top: 100px;
+}
+
+.container5{
+  text-align: center;
+  color: rgb(97, 89, 89);
+  padding: 50px 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: #eeeeee;
+  box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.43);
+}
+
+
+
+/* .navbar-style {
+  background-color: #f8f9fa;
+  box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.04);
+} */
+
+.image{
+ /* margin: 50px 130px; */
+height: 500px;
+width: 100%;
+}
+
+.image-darshan, .youth-camp, .image-swadhyay{
+  display: flex;
+  justify-content: center;
+  height: 220px;
+  width: 390px;
+  
+}
+
+.tm, .sa{
+  text-align: center;
+}
+ .card{
+  text-align: center;
+  box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.43)
+}
+
+.mother, .auro{
+  margin: auto;
+  height: 180px;
+  width: 300px;
+}
+
+.membership {
+  text-align: justify;
+  font-size: 18px;
+  margin: 50px 0;
+  padding: 50px 50px;
+  color: rgb(97, 89, 89);
+  line-height: 1.5;
+  background-color: #eeeeee;
+  box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.43);
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fc0542;
+}
+
+.form-group{
+margin-bottom: 0;
+
+}
+/* our hero sections  */
+
+/* .hero-text h1 {
+  font-size: 4.5rem;
+  line-height: 1.5;
+  text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+  letter-spacing: 1px;
+  color: #2f2f2f;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero-text h1:nth-child(2) {
+  font-weight: bold;
+  color: #5222d0;
+}
+
+.hero-text p,
+.our-services p,
+label {
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  color: #777676;
+  text-transform: capitalize;
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+.hero-text p span {
+  font-weight: bold;
+  color: #000;
+}
+
+.btn-style {
+  padding: 12px 25px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+  background: #ec615b;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+} */
+
+/* about us style starts  */
+
+/* .about-style {
+  margin: 10rem 0;
+}
+
+.about-style .main-heading,
+.service-style .main-heading,
+.contact-style .main-heading {
+  font-size: 5rem;
+  color: #fd5c63;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.sub-heading{
+  margin-bottom: 50px;
+}
+.about-style .sub-heading,
+.service-style .sub-heading,
+.contact-style .sub-heading {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  line-height: 2;
+  color: #333;
+  font-weight: 500;
+} */
+
+/* our services style starts  */
+
+.service-style {
+  margin-bottom: 10rem;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.our-services {
+  margin-top: 75px;
+  padding-bottom: 30px;
+  padding: 0 30px;
+  min-height: 198px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+}
+
+.our-services .icon {
+  margin-bottom: -21px;
+  transform: translateY(-50%);
+  text-align: center;
+}
+ .fas, .fab{
+   color: #fd5c63;
+  font-size:3rem ;
+  margin-bottom: -21px;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.our-services h4 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.our-services:hover h4,
+.our-services:hover p {
+  color: #fff;
+}
+
+
+/* our services style ends  */
+
+/* contact us starts here  */
+
+/* .contact-style {
+  margin: 10rem 0;
+} */
+
+label {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+/* .form-control {
+  padding: 2rem 1rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+} */
+
+/* #emailHelp,
+::placeholder {
+  font-size: 1.5rem;
+}
+
+::placeholder {
+  font-weight: 600;
+} */
+
+/* footer sections ends  */
+
+.page-footer{
+  background-color:#1abc9c;
+  color: #fff;
+}
+.page-footer p {
+  color: #fff;
+}
+.list-unstyled, li a{
+  color: #fff;
+}
+
+
+
+/* footer {
+  background: rgb(221, 217, 217);
+}
+
+footer p {
+  padding: 1rem 0;
+  margin: 0;
+  text-align: center;
+} */
+
+/* media queries part starts here  */
+
+@media (max-width: 768px) {
+  #logo {
+    font-size: 2.5rem;
+  }
+
+  .card{
+    margin-bottom: 50px;
+  }
+
+  figure {
+    margin: 5rem 0;
+  }
+
+  figure img {
+    min-width: 100%;
+  }
+
+  .hero-text p,
+  .our-services p,
+  label {
+    font-size: 1.5rem;
+  }
+
+  .about-style .sub-heading,
+  .service-style .sub-heading,
+  .contact-style .sub-heading {
+    font-size: 2rem;
+  }
+}
